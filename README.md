@@ -27,4 +27,5 @@ python rfd.py
 ```
 
 ## Sample Output
-![sample_output](https://github.com/abijebarson/rutherford/assets/57089155/725ab196-6bc9-48a2-aca8-76e6d49f7b19)
+![sample_output](https://github.com/abijebarson/rutherford/assets/57089155/32059ef2-e562-42de-acc8-98480b594265)
+
