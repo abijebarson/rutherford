@@ -47,7 +47,7 @@ au_pt = ax.scatter(R_init[0],R_init[1], color="#FFEE05")
 Au_atom = plt.Circle(R_init, RT)  
 ax.add_artist(Au_atom)
 
-xlim = abs(2*r_init[0])
+xlim = abs(r_init[0])
 ylim = 100
 ax.set(xlim=(-xlim, xlim),
        ylim=(-ylim, ylim))
