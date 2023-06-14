@@ -1,7 +1,6 @@
 
 import numpy as np, matplotlib.pyplot as plt
 from scipy.integrate import odeint
-from scipy.constants import e
 
 mp = 939.5654133
 mn = 938.2720813
