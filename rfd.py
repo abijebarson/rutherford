@@ -7,11 +7,11 @@ mn = 938.2720813
 e2 = 1.44
 
 q = 2
-Q = 79
+Q = 79 
 m = 2*mp + 2*mn #mass of the alpha particle
 
 R_init = (0, 0) # potition of Au in fm
-r_init = (-100, 10) # position of Alpha in fm
+r_init = (-100, 10) # position of Alpha in fm (y part is b - )
 
 RT = 7 #radius of Au nucleus in fm
 # RT = 0.146e6 #radius of Au atom in fm
@@ -20,7 +20,6 @@ RT = 7 #radius of Au nucleus in fm
 def systemxyt(state, t):
     z1, z2, z3, z4 = state
     r = max(np.sqrt((z1-R_init[0])**2 + (z3-R_init[1])**2), RT)
-    # print(f'{z3:.2f}, {np.sqrt((z1-R_init[0])**2 + (z3-R_init[1])**2):.2f}, {RT}, {r:.2f}')
     dz1 = z2
     dz2 = (q*Q*e2*z1)/(m*(r**3))
     dz3 = z4
@@ -30,7 +29,7 @@ def systemxyt(state, t):
 plt.style.use('dark_background')
 
 fig, ax = plt.subplots()
-ax.set_title(f"Rutherford's Scattering experiment")
+ax.set_title(f"Rutherford's Gold Foil Scattering")
 
 
 time_points = np.linspace(0, 10000, 10001)
@@ -42,9 +41,9 @@ for i in np.linspace(-blim,blim,11):
     x = xy[:, 0]; y = xy[:, 2]
     ax.plot(x,y)
 
-au_pt = ax.scatter(R_init[0],R_init[1], color="#FFEE05")
+# au_pt = ax.scatter(R_init[0],R_init[1], color="#FFEE05")
 
-Au_atom = plt.Circle(R_init, RT)  
+Au_atom = plt.Circle(R_init, RT, color='#DDBB05')  
 ax.add_artist(Au_atom)
 
 ax.set_aspect(1)
