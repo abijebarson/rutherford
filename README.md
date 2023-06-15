@@ -27,5 +27,8 @@ python rfd.py
 ```
 
 ## Sample Output
-![sample_output](https://github.com/abijebarson/rutherford/assets/57089155/32059ef2-e562-42de-acc8-98480b594265)
+
+Below is a sample output from this program with real alpha particle charge mass and gold nucleus charge data.
+![sample_output2](https://github.com/abijebarson/rutherford/assets/57089155/9fc1bac6-3ead-481a-bb3e-5eba4f5e7f9a)
+
 
