@@ -31,4 +31,8 @@ python rfd.py
 Below is a sample output from this program with real alpha particle charge mass and gold nucleus charge data.
 ![sample_output2](https://github.com/abijebarson/rutherford/assets/57089155/9fc1bac6-3ead-481a-bb3e-5eba4f5e7f9a)
 
+If plum pudding model was real:
+![sample_output3](https://github.com/abijebarson/rutherford/assets/57089155/7e52e445-d4ea-4b0c-a3c0-8a603b309354)
+
+
 
