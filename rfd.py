@@ -41,9 +41,9 @@ for i in np.linspace(-blim,blim,11):
     x = xy[:, 0]; y = xy[:, 2]
     ax.plot(x,y)
 
-au_pt = ax.scatter(R_init[0],R_init[1], color="#FFEE05")
+# au_pt = ax.scatter(R_init[0],R_init[1], color="#FFEE05")
 
-Au_atom = plt.Circle(R_init, RT)  
+Au_atom = plt.Circle(R_init, RT, color='#DDBB05')  
 ax.add_artist(Au_atom)
 
 ax.set_aspect(1)
