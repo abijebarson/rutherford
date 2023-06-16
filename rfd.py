@@ -42,7 +42,7 @@ axvslide = plt.axes([0.25, 0.1, 0.65, 0.03])
 axtslide = plt.axes([0.25, 0.05, 0.65, 0.03])
 
 bslide = Slider(axbslide, 'Spread', 1, 30, 10)
-vslide = Slider(axvslide, 'Velocity (KE)', 0.001, 0.1, .0512)
+vslide = Slider(axvslide, 'Velocity (KE)', 0.001, 0.5, .0512)
 tslide = Slider(axtslide, 'End Time', 1e3, 1e5, 1e4)
 
 # dummy_plot
